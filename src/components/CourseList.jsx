@@ -38,15 +38,5 @@ export default function CourseList() {
         <div className="course-list">
             {courses.map((course)=> <CourseCard key={course.id} course={course}/>)}
         </div>
-        // <CourseCard courses={courses} />
-        // <div>
-        //     <div className="course-list">
-        //         <div className="course-item">
-        //             <div className="course-item__img">
-        //                 <img src="/images/img1.jpg" alt="" />
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
